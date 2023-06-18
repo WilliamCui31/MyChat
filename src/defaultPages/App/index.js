@@ -33,8 +33,8 @@ class App extends React.Component {
             <div css={wrapperStyle()}>
                 <Router history={history}>
                     <Switch>
-                        <PrivateRoute exact path="/" component={CometChatUI} />
-                        <Route path="/login" component={Login} />
+                        <PrivateRoute exact path="/chat" component={CometChatUI} />
+                        <Route path="/" component={Login} />
                     </Switch>
                 </Router>
             </div>

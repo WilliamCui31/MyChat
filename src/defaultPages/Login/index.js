@@ -18,9 +18,6 @@ import {
   userContainerStyle,
   userWrapperStyle,
   thumbnailWrapperStyle,
-  uidWrapperStyle,
-  inputWrapperStyle,
-  loginBtn,
 } from "./style";
 
 import { loaderStyle } from "./loader";
@@ -59,7 +56,7 @@ class KitchenSinkApp extends React.PureComponent {
 
     let authRedirect = null;
     if (this.props.isLoggedIn) {
-      authRedirect = <Redirect to="/" />
+      authRedirect = <Redirect to="/chat" />
     }
 
     return (
