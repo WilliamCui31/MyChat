@@ -21,13 +21,13 @@ Before you begin, Before you begin, ensure you have met the following requiremen
 ## Clone 
 
 ```shell
-git clone git@github.com:WilliamCui31/my-chat.git
+git clone git@github.com:WilliamCui31/MyChat.git
 ```
 
 ## Install Dependences
 
 ```shell
-cd my-chat & npm install
+cd MyChat & npm install
 ```
 
 ## Running Develop Server
